@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [MainWindow.xaml](./CS/CustomLabelsAndStatusesExample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/CustomLabelsAndStatusesExample/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/CustomLabelsAndStatusesExample/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/CustomLabelsAndStatusesExample/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/CustomLabelsAndStatusesExample/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/CustomLabelsAndStatusesExample/MainWindow.xaml.vb))
 * [CustomLabel.cs](./CS/CustomLabelsAndStatusesExample/Model/CustomLabel.cs) (VB: [CustomLabel.vb](./VB/CustomLabelsAndStatusesExample/Model/CustomLabel.vb))
 * [Doctor.cs](./CS/CustomLabelsAndStatusesExample/Model/Doctor.cs) (VB: [Doctor.vb](./VB/CustomLabelsAndStatusesExample/Model/Doctor.vb))
 * [MedicalAppointment.cs](./CS/CustomLabelsAndStatusesExample/Model/MedicalAppointment.cs) (VB: [MedicalAppointment.vb](./VB/CustomLabelsAndStatusesExample/Model/MedicalAppointment.vb))
