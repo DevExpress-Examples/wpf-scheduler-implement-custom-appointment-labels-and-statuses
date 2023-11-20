@@ -3,23 +3,29 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T545719)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [MainWindow.xaml](./CS/CustomLabelsAndStatusesExample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/CustomLabelsAndStatusesExample/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/CustomLabelsAndStatusesExample/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/CustomLabelsAndStatusesExample/MainWindow.xaml.vb))
-* [CustomLabel.cs](./CS/CustomLabelsAndStatusesExample/Model/CustomLabel.cs) (VB: [CustomLabel.vb](./VB/CustomLabelsAndStatusesExample/Model/CustomLabel.vb))
-* [Doctor.cs](./CS/CustomLabelsAndStatusesExample/Model/Doctor.cs) (VB: [Doctor.vb](./VB/CustomLabelsAndStatusesExample/Model/Doctor.vb))
-* [MedicalAppointment.cs](./CS/CustomLabelsAndStatusesExample/Model/MedicalAppointment.cs) (VB: [MedicalAppointment.vb](./VB/CustomLabelsAndStatusesExample/Model/MedicalAppointment.vb))
-* [PaymentState.cs](./CS/CustomLabelsAndStatusesExample/Model/PaymentState.cs) (VB: [PaymentState.vb](./VB/CustomLabelsAndStatusesExample/Model/PaymentState.vb))
+# WPF Scheduler - Implement Custom Appointment Labels and Statuses
+
+This example demonstrates how to customize appointment marks — [Labels](https://docs.devexpress.com/WPF/119214/controls-and-libraries/scheduler/appointments/labels) and [Statuses](https://docs.devexpress.com/WPF/119215/controls-and-libraries/scheduler/appointments/statuses) that classify appointments in the **Scheduler**.
+
+![image](https://github.com/DevExpress-Examples/how-to-implement-custom-appointment-labels-and-statuses-t545719/assets/65009440/c4b763cf-94b2-4c8c-ad04-530c77429a86)
+
+## Files to Review
+
+* [MainWindow.xaml](./CS/CustomLabelsAndStatusesExample/MainWindow.xaml)
 * [MainViewModel.cs](./CS/CustomLabelsAndStatusesExample/ViewModel/MainViewModel.cs) (VB: [MainViewModel.vb](./VB/CustomLabelsAndStatusesExample/ViewModel/MainViewModel.vb))
-<!-- default file list end -->
-# How to implement custom appointment labels and statuses
+* [CustomLabel.cs](./CS/CustomLabelsAndStatusesExample/Model/CustomLabel.cs) (VB: [CustomLabel.vb](./VB/CustomLabelsAndStatusesExample/Model/CustomLabel.vb))
+* [PaymentState.cs](./CS/CustomLabelsAndStatusesExample/Model/PaymentState.cs) (VB: [PaymentState.vb](./VB/CustomLabelsAndStatusesExample/Model/PaymentState.vb))
 
+## Documentation
 
-<p>This example follows the <a href="http://help.devexpress.com/#WPF/CustomDocument116501">How to: Create Custom Labels and Statuses</a> topic and demonstrates how to customize the appointment marks - <em>labels</em> and <em>statuses</em> used to classify appointments in the <strong>Scheduler</strong>.</p>
-<p><br><br></p>
+* [Create Custom Labels and Statuses](https://docs.devexpress.com/WPF/116501/controls-and-libraries/scheduler/examples/how-to-create-custom-labels-and-statuses)
+* [Labels](https://docs.devexpress.com/WPF/119214/controls-and-libraries/scheduler/appointments/labels)
+* [Statuses](https://docs.devexpress.com/WPF/119215/controls-and-libraries/scheduler/appointments/statuses)
 
-<br/>
+## More Examples
 
-
+* [WPF Scheduler - Customize Context Menus](https://github.com/DevExpress-Examples/how-to-customize-the-scheduler-context-menus-t574078)
+* [WPF Scheduler - Customize Time Rulers](https://github.com/DevExpress-Examples/wpf-scheduler-use-styles-and-templates-to-customize-time-rulers)
+* [WPF Scheduler - Customize the Appointment Flyout and Tooltip](https://github.com/DevExpress-Examples/wpf-scheduler-customize-appointment-flyout-and-tooltip)
+* [WPF Scheduler - Create Custom Edit and Recurrence Dialogs](https://github.com/DevExpress-Examples/how-to-create-a-scheduling-application-which-uses-custom-editing-and-recurrence-dialog-t545486)
