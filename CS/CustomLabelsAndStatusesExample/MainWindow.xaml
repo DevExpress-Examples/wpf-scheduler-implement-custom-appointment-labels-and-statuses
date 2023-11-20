@@ -12,9 +12,8 @@
     Height="600"
     Width="800"
     DataContext="{dxmvvm:ViewModelSource local:MainViewModel}">
-    
+
     <Grid>
-        <!--region #labelstatusmappings-->
         <dxsch:SchedulerControl x:Name="scheduler">
             <dxsch:DayView ShowWorkTimeOnly="True"/>
             <dxsch:SchedulerControl.DataSource>
@@ -32,7 +31,6 @@
                             Caption="Caption"
                             Id="Id" />
                     </dxsch:DataSource.AppointmentStatusMappings>
-                    <!--endregion #labelstatusmappings-->
                     <dxsch:DataSource.AppointmentMappings>
                         <dxsch:AppointmentMappings
                             AllDay="AllDay"

@@ -1,15 +1,9 @@
-﻿#region #usings
-using DevExpress.Mvvm.POCO;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
 using System.Windows.Media;
-#endregion #usings
 
 namespace CustomLabelsAndStatusesExample {
-    public class MainViewModel {		
-		#region #customlabelstatusviewmodel
+    public class MainViewModel {
         public virtual ObservableCollection<Doctor> Doctors { get; set; }
         public virtual ObservableCollection<MedicalAppointment> Appointments { get; set; }
         public virtual ObservableCollection<PaymentState> Statuses { get; set; }
@@ -21,7 +15,7 @@ namespace CustomLabelsAndStatusesExample {
             Color.FromRgb(255, 247, 165),  Color.FromRgb(193, 244, 156),  Color.FromRgb(244, 206, 147) };
 
         public static string[] PaymentStates = { "Paid", "Unpaid" };
-        public static Brush[] PaymentBrushStates = { new LinearGradientBrush(Colors.Green,Colors.Yellow, 45.0), new SolidColorBrush(Colors.Red) };
+        public static Brush[] PaymentBrushStates = { new LinearGradientBrush(Colors.Green, Colors.Yellow, 45.0), new SolidColorBrush(Colors.Red) };
 
         Random rand = new Random(DateTime.Now.Millisecond);
 
@@ -33,7 +27,7 @@ namespace CustomLabelsAndStatusesExample {
         }
 
         ObservableCollection<CustomLabel> CreateLabels() {
-            ObservableCollection<CustomLabel>  result = new ObservableCollection<CustomLabel>();
+            ObservableCollection<CustomLabel> result = new ObservableCollection<CustomLabel>();
             int count = AppointmentTypes.Length;
             for (int i = 0; i < count; i++) {
                 CustomLabel label = CustomLabel.Create();
@@ -57,8 +51,6 @@ namespace CustomLabelsAndStatusesExample {
             }
             return result;
         }
-		
-		#endregion #customlabelstatusviewmodel
 
         ObservableCollection<Doctor> CreateDoctors() {
             ObservableCollection<Doctor> result = new ObservableCollection<Doctor>();
@@ -84,7 +76,7 @@ namespace CustomLabelsAndStatusesExample {
         string GenerateNineNumbers() {
             string result = String.Empty;
             int count = 9;
-            for (int i = 0; i < count; i++) 
+            for (int i = 0; i < count; i++)
                 result += rand.Next(count).ToString();
             return result;
         }

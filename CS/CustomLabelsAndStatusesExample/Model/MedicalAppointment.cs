@@ -1,7 +1,5 @@
-﻿#region #usings
-using DevExpress.Mvvm.POCO;
+﻿using DevExpress.Mvvm.POCO;
 using System;
-#endregion #usings
 
 namespace CustomLabelsAndStatusesExample {
     public class MedicalAppointment {
