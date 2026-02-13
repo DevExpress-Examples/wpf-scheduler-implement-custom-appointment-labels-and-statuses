@@ -31,7 +31,7 @@ This example demonstrates how to customize appointment marks — [Labels](https:
 * [WPF Scheduler - Customize the Appointment Flyout and Tooltip](https://github.com/DevExpress-Examples/wpf-scheduler-customize-appointment-flyout-and-tooltip)
 * [WPF Scheduler - Create Custom Edit and Recurrence Dialogs](https://github.com/DevExpress-Examples/how-to-create-a-scheduling-application-which-uses-custom-editing-and-recurrence-dialog-t545486)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-scheduler-implement-custom-appointment-labels-and-statuses&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-scheduler-implement-custom-appointment-labels-and-statuses&~~~was_helpful=no)
 
